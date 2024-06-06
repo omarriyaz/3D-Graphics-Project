@@ -1,0 +1,4 @@
+file './clips/1_bomb.mp4'
+file './clips/2_cannon.mp4'
+file './clips/3_chest.mp4'
+file './clips/4_sail.mp4'

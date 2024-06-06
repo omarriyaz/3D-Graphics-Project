@@ -1,0 +1,164 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v3.6.27",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "KEY"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.9795454144477844,
+        "roughnessFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 3777,
+      "max": [0.8644290566444397, 0.09193750470876694, 2.0263822078704834],
+      "min": [-0.8342740535736084, -0.09130679816007614, -1.684792160987854],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3777,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3777,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 6939,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 291,
+      "max": [0.2819308340549469, 0.06472357362508774, -0.7856733798980713],
+      "min": [-0.03142516314983368, -0.06334015727043152, -1.1156630516052246],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 291,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 291,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 447,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 45324,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 45324,
+      "byteOffset": 45324,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30216,
+      "byteOffset": 90648,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13878,
+      "byteOffset": 120864,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3492,
+      "byteOffset": 134744,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3492,
+      "byteOffset": 138236,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2328,
+      "byteOffset": 141728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 894,
+      "byteOffset": 144056,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 144952,
+      "uri": "KEYV2_FINAL.bin"
+    }
+  ]
+}
